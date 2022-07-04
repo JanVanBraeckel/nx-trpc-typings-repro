@@ -1,0 +1,9 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "client": "apps/client",
+    "server": "apps/server",
+    "shared-trpc-router": "libs/shared/trpc-router"
+  }
+}

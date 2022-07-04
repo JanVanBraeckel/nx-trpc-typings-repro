@@ -1,0 +1,14 @@
+{
+  "/trpc": {
+    "target": "http://localhost:3333",
+    "secure": false
+  },
+  "/socket": {
+    "target": "ws://localhost:3333",
+    "ws": true,
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": { "^/socket": "" },
+    "protocolRewrite": "http"
+  }
+}
